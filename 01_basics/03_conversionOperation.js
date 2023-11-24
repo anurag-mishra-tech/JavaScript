@@ -71,3 +71,35 @@ console.log(gameCounter);
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+
+// let x = 3;
+// const y = x++;
+// // x is 4; y is 3
+
+// let x2 = 3n;
+// const y2 = x2++;
+// // x2 is 4n; y2 is 3n
+
+// let x = 3;
+// const y = ++x;
+// // x is 4; y is 4
+
+// let x2 = 3n;
+// const y2 = ++x2;
+// // x2 is 4n; y2 is 4n
+
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Decrement
+let x = 3;
+const y = x--;
+
+console.log(x, y);
+// Expected output: "x:2, y:3"
+
+let a = 3;
+const b = --a;
+
+console.log(a, b);
+// Expected output: "a:2, b:2"
